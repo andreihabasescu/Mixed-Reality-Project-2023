@@ -1,0 +1,428 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/zmeui/Mixed-Reality-Project-2023/IMR Shaders Test
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+61824
+Successfully changed project path to: C:/Users/zmeui/Mixed-Reality-Project-2023/IMR Shaders Test
+C:/Users/zmeui/Mixed-Reality-Project-2023/IMR Shaders Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3784] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4265542988 [EditorId] 4265542988 [Version] 1048832 [Id] WindowsEditor(7,L16) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3784] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4265542988 [EditorId] 4265542988 [Version] 1048832 [Id] WindowsEditor(7,L16) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 102.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zmeui/Mixed-Reality-Project-2023/IMR Shaders Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7094 MB
+    Driver:   31.0.21905.1001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003883 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (417ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009324 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zmeui\Mixed-Reality-Project-2023\IMR Shaders Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zmeui\Mixed-Reality-Project-2023\IMR Shaders Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.448 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1448ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1262ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (473ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5264 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (3.0 MB). Loaded Objects now: 5718.
+Memory consumption went from 224.7 MB to 221.6 MB.
+Total: 5.157000 ms (FindLiveObjects: 0.638900 ms CreateObjectMapping: 0.160500 ms MarkObjects: 3.714200 ms  DeleteObjects: 0.642200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 213907.533962 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.023189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.642091 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(fdbb80114c978314ca5e651550edcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(fdbb80114c978314ca5e651550edcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f73dc33e30d46e2faf24bd2985c4df8') in 0.011806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.126981 seconds.
+  path: Assets/tombstone round
+  artifactKey: Guid(fdbb80114c978314ca5e651550edcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tombstone round using Guid(fdbb80114c978314ca5e651550edcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eca982c6dca966b2be65cd6e0e830e9') in 0.009123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.940378 seconds.
+  path: Assets/tombstone round/roundtmbstonenotext.fbx
+  artifactKey: Guid(3ca1528728ea009479bf078757c2b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tombstone round/roundtmbstonenotext.fbx using Guid(3ca1528728ea009479bf078757c2b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6be174883fdb2d2e682ace95b5b64c8') in 0.430964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 243.102993 seconds.
+  path: Assets/tombstone round/roundtmbstonenotext.fbx
+  artifactKey: Guid(3ca1528728ea009479bf078757c2b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tombstone round/roundtmbstonenotext.fbx using Guid(3ca1528728ea009479bf078757c2b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e099e737e024d8b556aba43f02e759cf') in 0.029379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.134165 seconds.
+  path: Assets/tombstone round/roundtbstone.png
+  artifactKey: Guid(5c391c7dbf553f6469acdde2b6c25c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tombstone round/roundtbstone.png using Guid(5c391c7dbf553f6469acdde2b6c25c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68255bdd118db05daa7307a22597113') in 0.023293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.395997 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(070005e4084ee684e94d0c4f217649e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(070005e4084ee684e94d0c4f217649e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e02b7d58c6897e8aa772e809a2c695') in 0.002450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.074054 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(808b738ba9c1a804f9be010475f135dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(808b738ba9c1a804f9be010475f135dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802f0cae55122de3346fa47a19678d23') in 0.010149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045008 seconds.
+  path: Assets/Textures/Aerial Rock.mat
+  artifactKey: Guid(6e2b63ef964faa845a4b9d2cc50bf657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Aerial Rock.mat using Guid(6e2b63ef964faa845a4b9d2cc50bf657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9b53d3e034ba47caafb2c7416eda5e') in 0.039364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Textures/red_laterite_soil_stones_nor_gl_1k.exr
+  artifactKey: Guid(d73d09b521eddd04cb6e5fd359ea4212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/red_laterite_soil_stones_nor_gl_1k.exr using Guid(d73d09b521eddd04cb6e5fd359ea4212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d25b5ea2e690f946dcd6635a9e3296') in 0.042058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Textures/shell_floor_01_diff_1k.jpg
+  artifactKey: Guid(8db5c624c87593b42a133fd0ae308c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/shell_floor_01_diff_1k.jpg using Guid(8db5c624c87593b42a133fd0ae308c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ea247771d95a341803e5c0c406397f') in 0.027192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Textures/red_laterite_soil_stones_rough_1k.exr
+  artifactKey: Guid(92898e710f178334eb8e3dc4904154ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/red_laterite_soil_stones_rough_1k.exr using Guid(92898e710f178334eb8e3dc4904154ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434a1b56d41d6a60413a1d2a25ac67e6') in 0.023211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/aerial_rocks_04_rough_1k.jpg
+  artifactKey: Guid(44ff1062cb4722a49a19d9b21cc511d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/aerial_rocks_04_rough_1k.jpg using Guid(44ff1062cb4722a49a19d9b21cc511d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2664133afb6504dab1ef0b0e30f82b1c') in 0.017103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Textures/aerial_rocks_04_nor_gl_1k.exr
+  artifactKey: Guid(2da6077f6cda1ac46bd5799a03a5e440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/aerial_rocks_04_nor_gl_1k.exr using Guid(2da6077f6cda1ac46bd5799a03a5e440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d9d7ee56c9ca601792cf4dab221cf2') in 0.020115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Textures/Sand Shell.mat
+  artifactKey: Guid(74edad607e8897143af2d4b479b957ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sand Shell.mat using Guid(74edad607e8897143af2d4b479b957ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f2e27522fe85d29bceb00c370656f6') in 0.026484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.028540 seconds.
+  path: Assets/Textures/roundtbstone.png
+  artifactKey: Guid(7c520b18b657d1e4da333d396d1fa8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/roundtbstone.png using Guid(7c520b18b657d1e4da333d396d1fa8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7e37e8046edcf3e63688e76e0171b6') in 0.011664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.135741 seconds.
+  path: Assets/tombstone round/roundtmbstonenotext.fbx
+  artifactKey: Guid(3ca1528728ea009479bf078757c2b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tombstone round/roundtmbstonenotext.fbx using Guid(3ca1528728ea009479bf078757c2b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac37b6b857c2e7b38ba0f242d35962c') in 0.030023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.999738 seconds.
+  path: Assets/Models
+  artifactKey: Guid(fdbb80114c978314ca5e651550edcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(fdbb80114c978314ca5e651550edcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7c40801ad8eaa7696afe53cc36cd66') in 0.004866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.374120 seconds.
+  path: Assets/Models/roundtmbstonenotext 1.fbx
+  artifactKey: Guid(b51b76bdff6975146b41f956bb20c83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/roundtmbstonenotext 1.fbx using Guid(b51b76bdff6975146b41f956bb20c83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20969ceb3b809660e04477234cd8473c') in 0.026526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.987104 seconds.
+  path: Assets/Models/tombstonewithcross.fbx
+  artifactKey: Guid(b633652b15423e8459a94b9ccbbea353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/tombstonewithcross.fbx using Guid(b633652b15423e8459a94b9ccbbea353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e6a8f4b3d9a2a40fcef32a1e84ea1c') in 0.037756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.770074 seconds.
+  path: Assets/Models/tombstonewithcross.fbx
+  artifactKey: Guid(b633652b15423e8459a94b9ccbbea353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/tombstonewithcross.fbx using Guid(b633652b15423e8459a94b9ccbbea353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfe85ee322184ca44154840941977be') in 0.034017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 364.854704 seconds.
+  path: Assets/Models/swordSimpleBoltsShadingScratchesFinal.fbx
+  artifactKey: Guid(52e93ae215023d24e9f84c0c90804c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/swordSimpleBoltsShadingScratchesFinal.fbx using Guid(52e93ae215023d24e9f84c0c90804c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80fbcb492fd306443696d54fd84f4b7') in 0.048252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2035.869079 seconds.
+  path: Assets/Models/graveFence.fbx
+  artifactKey: Guid(9eb3c3af2f682874d8b125c9ec501ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/graveFence.fbx using Guid(9eb3c3af2f682874d8b125c9ec501ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351deaa1307557d7f80da2e68b1547ae') in 0.025338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.826246 seconds.
+  path: Assets/Models/graveFence.fbx
+  artifactKey: Guid(9eb3c3af2f682874d8b125c9ec501ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/graveFence.fbx using Guid(9eb3c3af2f682874d8b125c9ec501ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f57ab3949e572ea597d9bb1197b51d') in 0.022300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1199.790285 seconds.
+  path: Assets/Models/dirtpile.fbx
+  artifactKey: Guid(87fb2b768a93c024296082edf7cef10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/dirtpile.fbx using Guid(87fb2b768a93c024296082edf7cef10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da99235715640d17c1cedc3cec19a80') in 0.032259 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004891 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zmeui\Mixed-Reality-Project-2023\IMR Shaders Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zmeui\Mixed-Reality-Project-2023\IMR Shaders Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1805ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1443ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (664ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5081 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (3.0 MB). Loaded Objects now: 5817.
+Memory consumption went from 216.3 MB to 213.3 MB.
+Total: 7.299200 ms (FindLiveObjects: 0.753000 ms CreateObjectMapping: 0.165600 ms MarkObjects: 5.523900 ms  DeleteObjects: 0.855100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005650 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zmeui\Mixed-Reality-Project-2023\IMR Shaders Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zmeui\Mixed-Reality-Project-2023\IMR Shaders Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1967ms)
+		BeginReloadAssembly (455ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (143ms)
+		EndReloadAssembly (1379ms)
+			LoadAssemblies (244ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (539ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (555ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5081 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (3.0 MB). Loaded Objects now: 5820.
+Memory consumption went from 216.2 MB to 213.3 MB.
+Total: 5.427900 ms (FindLiveObjects: 0.414900 ms CreateObjectMapping: 0.188200 ms MarkObjects: 4.146900 ms  DeleteObjects: 0.676800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
